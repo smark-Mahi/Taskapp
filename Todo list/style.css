@@ -1,0 +1,70 @@
+.container-fluid{
+    width: 90%;
+}
+.con{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-brand{
+    color: black;
+}
+
+.frmin{
+    height: 40px;
+    margin: 10px;
+    width: 80%;
+}
+.bn{
+    width: 120px;
+    height: 40px;
+    word-wrap: break-word;
+    font-size: 15px;
+   margin: 10px;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addNoteContainer{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.input_title{
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    margin-bottom: 6px;
+}
+
+.input_descp{
+    border: none;
+}
+
+.button_save{
+    border-radius: 10px;
+}
+
+.card{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card_btns{
+    border-radius: 50%;
+    padding: 7px;
+    
+}
+
+@media screen and (max-width:264px) {
+    .frmin{
+        width: 250px;
+    }
+    .bn{
+        margin-top: -4px;
+    }
+}
